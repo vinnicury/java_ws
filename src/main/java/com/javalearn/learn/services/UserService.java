@@ -1,10 +1,13 @@
-package com.javalearn.learn;
+package com.javalearn.learn.services;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.javalearn.learn.entities.User;
+import com.javalearn.learn.repositories.UserRepository;
 
 
 @Service
